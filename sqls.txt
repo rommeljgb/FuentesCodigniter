@@ -1,0 +1,6 @@
+SELECT R.[id_rueda_negocio], R.[nombre_evento], R.[comentario], R.[direccion], R.[imagen_logo], R.[fecha_inicio], R.[fecha_fin], R.[hora_inicio], R.[fecha_reg], R.[costo], R.[estado], E.[id_empresa], E.razon_social
+FROM [RUEDA_NEGOCIO] R
+JOIN EMPRESA E ON E.id_empresa = R.id_empresa
+JOIN PERSONA P ON P.id_persona= E.id_persona
+WHERE P.id_persona =  79
+AND R.estado =  '1'

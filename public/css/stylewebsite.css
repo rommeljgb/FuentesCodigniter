@@ -1,0 +1,19 @@
+#load_gif{
+position:absolute;
+		/*nos posicionamos en el centro del navegador*/
+		top:50%;
+		left:50%;
+		/*determinamos una anchura*/
+		width:44px;
+		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+		margin-left:-22px;
+		/*determinamos una altura*/
+		height:44px;
+		/*indicamos que el margen superior, es la mitad de la altura*/
+		margin-top:-22px;
+		/*border:1px solid  #0066CC;*/
+		padding:1px;
+		text-align:center;
+		/*background-image:url(../imagenes/bck_1.jpg);*/
+
+}
